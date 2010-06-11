@@ -35,25 +35,25 @@
  *
  * ***** END LICENSE BLOCK ***** */
 
-exports.whiteTheme = function() {
+exports.theme = function() {
     return {
         global: {
             // Standard font.
             font:           'arial, lucida, helvetica, sans-serif',
             // Standard font size.
-            font_size:      '14px',
+            font_size:      '12px',
             // Standard line_height.
             line_height:    '1.8em',
             // Text color.
-            color:          '#2E2E3D',
+            color:          '#ccc',
             // Text shadow css attribute.
-            text_shadow:    '1px 1px white',
+            text_shadow:    '1px 1px #000',
             // Text error color.
-            error_color:    '#C03A38',
+            error_color:    '#e96361',
             // The color for headers (<h1> etc).
-            header_color:   '#222222',
+            header_color:   '#eee',
             // The color for links.
-            link_color:     '#597BAC',
+            link_color:     '#79a7ea',
 
             // Variables for a pane - e.g. the login pane.
             pane: {
@@ -65,10 +65,10 @@ exports.whiteTheme = function() {
 
                 link_color:     '@global_link_color',
 
-                background:     '#DFDFDF',
-                border_radius:  '.5em',
+                background:     '#242424',
+                border_radius:  '.4em',
 
-                color:          '#2E2E3D',
+                color:          '#b7b7f3',
                 text_shadow:    '1px 1px #DDD'
             },
 
@@ -78,19 +78,19 @@ exports.whiteTheme = function() {
                 font_size: '@global_font_size',
                 line_height: '@global_line_height',
 
-                color: 'black',
+                color: '#ccc',
                 text_shadow: '0px 0px transparent'
             },
 
             // Variables for a controller: textInput, tree etc.
             control: {
-                color:          '#222',
+                color:          '#ccc',
                 border:         '1px solid rgba(0, 0, 0, 0.2)',
                 border_radius:  '0.25em',
                 background:     'rgba(0, 0, 0, 0.1)',
 
                 active: {
-                    color:          '#000',
+                    color:          '#fff',
                     border:         '1px solid #597BAC',
                     inset_color:    '#597BAC',
                     background:     'rgba(0, 0, 0, 0.1)'
@@ -105,21 +105,21 @@ exports.whiteTheme = function() {
 
             // Variables for the containers.
             container: {
-                background:     '#F8F8F8',
-                border:         '1px solid black',
+                background:     '#232323',
+                border:         '1px solid #3C3C3C',
             },
 
             // Variables for a menu - e.g. the command line menu.
             menu: {
-                border_color:   'black',
-                inset_color:    '#999',
+                border_color:   '#3C3C3C',
+                inset_color:    '#d2fd79',
                 background:     'transparent'
             },
 
             // Variables for elements that can get selected - e.g. the items
             // in the command line menu.
             selectable: {
-                color:          'black',
+                color:          '#ffffff',
                 border:         '0px solid transparent',
                 background:     'transparent',
 
@@ -138,21 +138,21 @@ exports.whiteTheme = function() {
 
             // Variables for hint text.
             hint: {
-                color:          '#78788D',
+                color:          '#666',
 
                 active: {
                     color:      'white',
                 },
 
                 hover: {
-                    color:      'white',
+                    color:      '#d88616',
                 }
             },
 
             // Variables for accelerator (the text that holds the key short cuts
             // like ALT+2).
             accelerator: {
-                color:          '#344DB1',
+                color:          '#d88616',
 
                 active: {
                     color:      'white',
@@ -167,32 +167,32 @@ exports.whiteTheme = function() {
         text_editor: {
             // Variables for the gutter.
             gutter: {
-                color: '#888888',
-                backgroundColor: '#d2d2d2'
+                color: '#666666',
+                backgroundColor: '#242424'
             },
 
             // Variables for the editor.
             editor: {
-                color: '#3D3D3D',
-                backgroundColor: '#ffffff',
+                color: '#F8F8F8',
+                backgroundColor: '#141414',
 
-                cursorColor: '#000000',
-                selectedTextBackgroundColor: '#BDD9FC',
+                cursorColor: '#6462bf',
+                selectedTextBackgroundColor: 'rgba(118, 96, 124, 0.61)',
 
-                unfocusedCursorColor: '#57A1FF',
-                unfocusedCursorBackgroundColor: '#D9E9FC'
+                unfocusedCursorColor: '#FFE300',
+                unfocusedCursorBackgroundColor: '#8e800c'
             },
 
             // Variables for the syntax highlighter.
             highlighter: {
-                plain:     '#3D3D3D',
-                comment:   '#A8A8A8',
-                directive: '#999999',
-                error:      '#ff0000',
-                identifier: '#000000',
-                keyword:    '#0000ff',
+                plain:     '#F8F8F8',
+                comment:   '#626262',
+                directive: '#AFC4DB',
+                error:      '#CF6A4C',
+//                identifier: '#7587A6',
+                keyword:    '#CDA869',
                 operator:   '#88BBFF',
-                string:     '#039A0A'
+                string:     '#8F9D6A'
             },
 
             // Variables for the scrollers.

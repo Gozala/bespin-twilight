@@ -1,14 +1,14 @@
 {
-    "description": "Provides a white theme for Bespin",
+    "description": "Provides a twilight theme for Bespin",
     "provides": [
         {
             "ep": "theme",
-            "name": "white",
-            "description": "A basic white theme",
+            "name": "twilight",
+            "description": "A basic twilight theme",
             "url": [
                 "theme.less"
             ],
-            "pointer": "index#whiteTheme"
+            "pointer": "index#theme"
        }
     ]
 }
