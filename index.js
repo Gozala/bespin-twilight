@@ -185,14 +185,14 @@ exports.theme = function() {
 
             // Variables for the syntax highlighter.
             highlighter: {
-                plain:     '#F8F8F8',
-                comment:   '#626262',
+                plain: '#e6e7d9',
+                comment: '#626262',
                 directive: '#AFC4DB',
-                error:      '#CF6A4C',
-//                identifier: '#7587A6',
-                keyword:    '#CDA869',
-                operator:   '#88BBFF',
-                string:     '#8F9D6A'
+                error: '#CF6A4C',
+                identifier: '#66CCCC',
+                keyword: '#CDA869',
+                operator: '#88BBFF',
+                string: '#8F9D6A'
             },
 
             // Variables for the scrollers.
